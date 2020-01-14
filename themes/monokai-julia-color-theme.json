@@ -475,6 +475,53 @@
 			"settings": {
 				"foreground": "#FD971F"
 			}
+		},
+		{
+			"name": "String Delimiter",
+			"scope": "source.julia punctuation.definition.string",
+			"settings": {
+				"foreground": "#88846f"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "source.julia meta.bracket",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FD971F"
+			}
+		},
+		{
+			"name": "Keyword End",
+			"scope": "source.julia keyword.control.end",
+			"settings": {
+				"foreground": "#6b0329"
+			}
+		},
+		{
+			"name": "Boolean Operator",
+			"scope": "source.julia keyword.operator.boolean",
+			"settings": {
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "Symbol",
+			"scope": "source.julia constant.other.symbol",
+			"settings": {
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"source.julia support.type",
+				"source.julia support.class"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#fd5ff0"
+			}
 		}
 	]
 }

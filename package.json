@@ -1,7 +1,7 @@
 {
     "name": "monokai-julia",
     "displayName": "Monokai Julia",
-    "description": "A Monokai color theme tweaked for the Julia language.",
+    "description": "Monokai color themes tweaked for the Julia language.",
     "version": "0.1.0",
     "engines": {
         "vscode": "^1.41.0"
@@ -12,9 +12,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Monokai Julia",
+                "label": "Monokai Julia (Classic)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/monokai-julia-color-theme.json"
+                "path": "./themes/monokai-julia-classic-color-theme.json"
+            },
+            {
+                "label": "Monokai Julia (Vibrant)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-julia-vibrant-color-theme.json"
             }
         ]
     }

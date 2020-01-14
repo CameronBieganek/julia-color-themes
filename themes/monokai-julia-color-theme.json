@@ -476,6 +476,8 @@
 				"foreground": "#FD971F"
 			}
 		},
+
+		// Julia-specific styles.
 		{
 			"name": "String Delimiter",
 			"scope": "source.julia punctuation.definition.string",
@@ -521,6 +523,75 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#fd5ff0"
+			}
+		},
+
+		// Python-specific styles.
+		{
+			"scope": [
+				"source.python meta.function-call.generic",
+				"source.python keyword.control.import"
+			],
+			"settings": {
+				"foreground": "#66D9EF"
+			}
+		},
+		{
+			"scope": "source.python punctuation",
+			"settings": {
+				"foreground": "#FD971F"
+			}
+		},
+		{
+			"scope": [
+				"source.python punctuation.separator.period",
+				"source.python punctuation.section",
+				"source.python punctuation.separator.colon",
+				"source.python punctuation.separator.dict"
+			],
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"scope": [
+				"source.python punctuation.definition.comment",
+				"source.python punctuation.definition.string",
+				"source.python storage.type.string",
+				"source.python meta.fstring punctuation.definition.string string.interpolated string"
+			],
+			"settings": {
+				"foreground": "#88846f"
+			}
+		},
+		{
+			"scope": "source.python constant.other.caps",
+			"settings": {
+				"foreground": "#FD5FF0"
+			}
+		},
+		{
+			"scope": "source.python keyword.operator.arithmetic",
+			"settings": {
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"scope": [
+				"source.python variable.parameter.function.language.special.self",
+				"source.python variable.language"
+			],
+			"settings": {
+				"foreground": "#FF00FF" // "#FD5FF0" "#94558D"
+			}
+		},
+		{
+			"scope": [
+				"source.python variable.parameter",
+				"source.python variable.parameter.function-call"
+			],
+			"settings": {
+				"foreground": "#AA4926"
 			}
 		}
 	]

@@ -524,13 +524,13 @@
         {
             "scope": "source.julia meta.bracket",
             "settings": {
-                "foreground": "#FF7814" // "#FF9700"
+                "foreground": "#FF8F3F" // "#FF7814" "#FF9700" "#FF8F3F"
             }
         },
         {
             "scope": [
                 "source.julia entity.name.function",
-                "source.julia constant.numeric"
+                "source.julia keyword.operator.boolean"
             ],
             "settings": {
                 "foreground": "#AE81FF" // "#DC73E3"
@@ -560,13 +560,24 @@
             }
         },
         {
+            // Each of the constant.X scopes is needed in order to override
+            // the default themes for those scopes.
             "scope": [
                 "source.julia constant.language",
                 "source.julia constant.other",
+                "source.julia constant.numeric",
+                "source.julia constant.character",
+                "source.julia support.function.macro",
                 "source.julia support.type"
             ],
             "settings": {
                 "foreground": "#00AAFF" // "#00AAFF" "#33CCFF" "#2AE5E8" "#19D1E5"
+            }
+        },
+        {
+            "scope": "source.julia constant.other.symbol",
+            "settings": {
+                "foreground": "#FD5FF0"
             }
         }
     ],
@@ -627,6 +638,6 @@
         "titleBar.inactiveBackground": "#282C34",
         "titleBar.inactiveForeground": "#6B717D"
     },
-    "name": "Monokai Vibrant",
+    "name": "Monokai Julia (Vibrant)",
     "type": "dark"
 }

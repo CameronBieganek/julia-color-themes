@@ -524,7 +524,14 @@
 				"fontStyle": "italic",
 				"foreground": "#fd5ff0"
 			}
-		},
+        },
+        {
+            "name": "Macro",
+            "scope": "source.julia support.function.macro",
+            "settings": {
+                "foreground": "#A6E22E"
+            }
+        },
 
 		// Python-specific styles.
 		{

@@ -544,6 +544,13 @@
             }
         },
         {
+            "scope": "source.python meta.function-call support.type",
+            "settings": {
+                "foreground": "#66D9EF",
+                "fontStyle": ""
+            }
+        },
+        {
             "scope": "source.python punctuation",
             "settings": {
                 "foreground": "#FD971F"
@@ -554,10 +561,19 @@
                 "source.python punctuation.separator.period",
                 "source.python punctuation.section",
                 "source.python punctuation.separator.colon",
-                "source.python punctuation.separator.dict"
+                "source.python punctuation.separator.dict",
+                "source.python punctuation.definition.decorator",
+                "source.python meta.function.decorator entity.name.function"
             ],
             "settings": {
                 "foreground": "#F92672"
+            }
+        },
+        {
+            "scope": "source.python meta.function.decorator support.type",
+            "settings": {
+                "foreground": "#F92672",
+                "fontStyle": ""
             }
         },
         {
@@ -572,7 +588,11 @@
             }
         },
         {
-            "scope": "source.python keyword.operator.arithmetic",
+            "scope": [
+                "source.python keyword.operator.arithmetic",
+                "source.python support.type",
+                "source.python meta.function-call meta.function-call.arguments support.type"
+            ],
             "settings": {
                 "foreground": "#A6E22E"
             }

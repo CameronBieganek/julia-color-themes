@@ -524,14 +524,14 @@
 				"fontStyle": "italic",
 				"foreground": "#fd5ff0"
 			}
-        },
-        {
-            "name": "Macro",
-            "scope": "source.julia support.function.macro",
-            "settings": {
-                "foreground": "#A6E22E"
-            }
-        },
+		},
+		{
+			"name": "Macro",
+			"scope": "source.julia support.function.macro",
+			"settings": {
+				"foreground": "#A6E22E"
+			}
+		},
 
 		// Python-specific styles.
 		{
@@ -572,12 +572,6 @@
 			}
 		},
 		{
-			"scope": "source.python constant.other.caps",
-			"settings": {
-				"foreground": "#FD5FF0"
-			}
-		},
-		{
 			"scope": "source.python keyword.operator.arithmetic",
 			"settings": {
 				"foreground": "#A6E22E"
@@ -586,7 +580,8 @@
 		{
 			"scope": [
 				"source.python variable.parameter.function.language.special.self",
-				"source.python variable.language"
+				"source.python variable.language",
+				"source.python constant.other.caps"
 			],
 			"settings": {
 				"foreground": "#FF00FF" // "#FD5FF0" "#94558D"

@@ -582,18 +582,16 @@
         },
 
         // Python-specific styles.
-		{
-			"scope": [
-                "source.python keyword.control.import",
-                "source.python support.type",
+        {
+            "scope": [
                 "source.python storage.type",
                 "source.python constant.language",
                 "source.python constant.numeric",
                 "source.python constant.character"
-			],
-			"settings": {
-				"foreground": "#00AAFF"
-			}
+            ],
+            "settings": {
+                "foreground": "#00AAFF"
+            }
         },
         {
             "scope": [
@@ -606,65 +604,70 @@
             }
         },
         {
-			"scope": [
+            "scope": [
                 "source.python meta.function-call.generic",
+                "source.python meta.function-call support.type",
                 "source.python keyword.control.import"
-			],
-			"settings": {
-				"foreground": "#81F900"
-			}
-		},
-		{
-			"scope": "source.python punctuation",
-			"settings": {
-				"foreground": "#5C6370"
-			}
-		},
-		{
-			"scope": [
-				"source.python punctuation.separator.period",
-				"source.python punctuation.section",
-				"source.python punctuation.separator.colon",
+            ],
+            "settings": {
+                "foreground": "#81F900"
+            }
+        },
+        {
+            "scope": "source.python punctuation",
+            "settings": {
+                "foreground": "#5C6370"
+            }
+        },
+        {
+            "scope": [
+                "source.python punctuation.separator.period",
+                "source.python punctuation.section",
+                "source.python punctuation.separator.colon",
                 "source.python punctuation.separator.dict",
                 "source.python punctuation.definition.decorator",
                 "source.python meta.function.decorator support.type",
                 "source.python meta.function.decorator entity.name.function"
-			],
-			"settings": {
-				"foreground": "#FF3F4F"
-			}
-		},
-		{
-			"scope": "source.python punctuation.definition.string",
-			"settings": {
-				"foreground": "#FFD945"
-			}
-		},
-		{
-			"scope": "source.python keyword.operator.arithmetic",
-			"settings": {
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": [
-				"source.python variable.parameter.function.language.special.self",
+            ],
+            "settings": {
+                "foreground": "#FF3F4F"
+            }
+        },
+        {
+            "scope": [
+                "source.python punctuation.definition.string",
+                "source.python support.type",
+                "source.python meta.function-call meta.function-call.arguments support.type"
+            ],
+            "settings": {
+                "foreground": "#FFD945"
+            }
+        },
+        {
+            "scope": "source.python keyword.operator.arithmetic",
+            "settings": {
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "source.python variable.parameter.function.language.special.self",
                 "source.python variable.language",
                 "source.python constant.other.caps"
-			],
-			"settings": {
-				"foreground": "#FF00FF" // "#FD5FF0" "#94558D"
-			}
-		},
-		{
-			"scope": [
-				"source.python variable.parameter",
-				"source.python variable.parameter.function-call"
-			],
-			"settings": {
-				"foreground": "#FF8F3F"
-			}
-		}
+            ],
+            "settings": {
+                "foreground": "#FF00FF" // "#FD5FF0" "#94558D"
+            }
+        },
+        {
+            "scope": [
+                "source.python variable.parameter",
+                "source.python variable.parameter.function-call"
+            ],
+            "settings": {
+                "foreground": "#FF8F3F"
+            }
+        }
     ],
     "colors": {
         "activityBar.background": "#16171D",

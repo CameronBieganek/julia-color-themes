@@ -596,11 +596,17 @@
         {
             "scope": [
                 "source.python entity.name.function",
-                "source.python entity.name.type",
                 "source.python meta.function support.function"
             ],
             "settings": {
                 "foreground": "#AE81FF" // "#DC73E3"
+            }
+        },
+        {
+            "scope": "source.python entity.name.type",
+            "settings": {
+                "foreground": "#AE81FF", // "#DC73E3"
+                "fontStyle": "underline"
             }
         },
         {

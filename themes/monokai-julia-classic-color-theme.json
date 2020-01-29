@@ -599,7 +599,7 @@
                 "source.python constant.other.caps"
             ],
             "settings": {
-                "foreground": "#FF00FF" // "#FD5FF0" "#94558D"
+                "foreground": "#FF00FF"
             }
         },
         {

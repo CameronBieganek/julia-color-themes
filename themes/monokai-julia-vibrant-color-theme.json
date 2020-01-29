@@ -567,7 +567,7 @@
         {
             "scope": "source.julia meta.bracket",
             "settings": {
-                "foreground": "#FF8F3F" // "#FF7814" "#FF9700" "#FF8F3F"
+                "foreground": "#FF8F3F"
             }
         },
         {
@@ -576,7 +576,7 @@
                 "source.julia keyword.operator.boolean"
             ],
             "settings": {
-                "foreground": "#AE81FF" // "#DC73E3"
+                "foreground": "#AE81FF"
             }
         },
         {
@@ -614,7 +614,7 @@
                 "source.julia support.type"
             ],
             "settings": {
-                "foreground": "#00AAFF" // "#00AAFF" "#33CCFF" "#2AE5E8" "#19D1E5"
+                "foreground": "#00AAFF"
             }
         },
         {
@@ -642,13 +642,13 @@
                 "source.python meta.function support.function"
             ],
             "settings": {
-                "foreground": "#AE81FF" // "#DC73E3"
+                "foreground": "#AE81FF"
             }
         },
         {
             "scope": "source.python entity.name.type",
             "settings": {
-                "foreground": "#AE81FF", // "#DC73E3"
+                "foreground": "#AE81FF",
                 "fontStyle": "underline"
             }
         },
@@ -705,7 +705,7 @@
                 "source.python constant.other.caps"
             ],
             "settings": {
-                "foreground": "#FF00FF" // "#FD5FF0" "#94558D"
+                "foreground": "#FF00FF"
             }
         },
         {

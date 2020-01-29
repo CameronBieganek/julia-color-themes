@@ -1,21 +1,6 @@
 {
     "tokenColors": [
         {
-            "settings": {
-                "background": "#08090C",
-                "foreground": "#F6F6F6",
-                "findHighlight": "#FFE792",
-                "findHighlightForeground": "#000000",
-                "selectionBorder": "#222218",
-                "activeGuide": "#9D550FB0",
-                "bracketsForeground": "#F8F8F2A5",
-                "bracketsOptions": "underline",
-                "bracketContentsForeground": "#F8F8F2A5",
-                "bracketContentsOptions": "underline",
-                "tagsOptions": "stippled_underline"
-            }
-        },
-        {
             "name": "Comment",
             "scope": [
                 "comment",
@@ -367,7 +352,6 @@
             "name": "Invalid",
             "scope": "invalid",
             "settings": {
-                "background": "#E542FF",
                 "foreground": "#F8F8F0"
             }
         },
@@ -375,7 +359,6 @@
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "settings": {
-                "background": "#56b6c2",
                 "foreground": "#F8F8F0"
             }
         },
@@ -447,7 +430,7 @@
             "name": "Markup: Emphasis Punctuation",
             "scope": "punctuation.definition.italic.markdown",
             "settings": {
-                "fontStyle": "none",
+                "fontStyle": "",
                 "foreground": "#696969"
             }
         },
@@ -469,7 +452,7 @@
             "name": "Markdown: Bold Punctuation",
             "scope": "punctuation.definition.bold.markdown",
             "settings": {
-                "fontStyle": "none",
+                "fontStyle": "",
                 "foreground": "#919191"
             }
         },
@@ -485,7 +468,7 @@
             "name": "Markdown: Heading",
             "scope": "punctuation.definition.heading.markdown",
             "settings": {
-                "fontStyle": "none",
+                "fontStyle": "",
                 "foreground": "#919191"
             }
         },
@@ -691,9 +674,9 @@
         "editor.lineHighlightBackground": "#1F2328",
         "editor.selectionBackground": "#3E4451",
         "editorCursor.foreground": "#f8f8f0",
-        "editor.editor.findMatchBackground": "#42557B",
+        "editor.findMatchBackground": "#42557B",
         "editor.findMatchHighlightBackground": "#314365",
-        "editorGroup.background": "#181A1F",
+        "editorGroup.emptyBackground": "#181A1F",
         "editorGroup.border": "#181A1F",
         "editorGroupHeader.tabsBackground": "#21252B",
         "editorIndentGuide.background": "#3B4048",
@@ -713,7 +696,7 @@
         "list.highlightForeground": "#C5C5C5",
         "list.inactiveSelectionBackground": "#2c313a",
         "list.inactiveSelectionForeground": "#d7dae0",
-        "notification.background": "#21252b",
+        "notifications.background": "#21252b",
         "scrollbarSlider.background": "#4E566680",
         "scrollbarSlider.activeBackground": "#747D9180",
         "scrollbarSlider.hoverBackground": "#5A637580",

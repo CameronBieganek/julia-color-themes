@@ -1,2 +1,23 @@
 
 # Julia Color Themes
+
+**Julia Color Themes** contains VS Code color themes that are customized for the Julia language. Customizations for Python code are also included so you can switch between Julia and Python files without needing to change themes. The following screenshots are of the `sort.jl` file in Base Julia.
+
+## Monokai Classic
+
+This theme is labeled `Julia (Monokai Classic)` in the theme selector.
+
+![Monokai Classic](https://raw.githubusercontent.com/CameronBieganek/monokai-julia/master/images/julia-monokai-classic.png)
+
+
+## Monokai Vibrant
+
+This theme is labeled `Julia (Monokai Vibrant)` in the theme selector.
+
+![Monokai Vibrant](https://raw.githubusercontent.com/CameronBieganek/monokai-julia/master/images/julia-monokai-vibrant.png)
+
+## Acknowledgements
+
+- Monokai Classic is a modified version of the Monokai color theme built into VS Code.
+
+- The Monokai Vibrant theme in this extension is a modified version of Monokai Vibrant from Dylan Marsh.

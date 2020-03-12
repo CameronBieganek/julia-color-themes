@@ -527,6 +527,16 @@
                 "foreground": "#A6E22E"
             }
         },
+        {
+            "name": "Using/Import",
+            "scope": [
+                "source.julia keyword.control.using",
+                "source.julia keyword.control.import"
+            ],
+            "settings": {
+                "foreground": "#66D9EF"
+            }
+        },
 
         // Python-specific styles.
         {

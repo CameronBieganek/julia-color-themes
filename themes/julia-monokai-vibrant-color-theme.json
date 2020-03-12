@@ -623,6 +623,15 @@
                 "foreground": "#FD5FF0"
             }
         },
+        {
+            "scope": [
+                "source.julia keyword.control.using",
+                "source.julia keyword.control.import"
+            ],
+            "settings": {
+                "foreground": "#81F900"
+            }
+        },
 
         // Python-specific styles.
         {

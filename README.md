@@ -1,7 +1,7 @@
 
 # Julia Color Themes
 
-**Julia Color Themes** contains VS Code color themes that are customized for the Julia language. Customizations for Python code are also included so you can switch between Julia and Python files without needing to change themes. The following screenshots are of the `sort.jl` file in Base Julia.
+**Julia Color Themes** contains VS Code color themes that are customized for the Julia language. Customizations for Python code are also included so you can switch between Julia and Python files without needing to change themes. The following screenshots are excerpted from the `sort.jl` file in Base Julia.
 
 ## Monokai Classic
 

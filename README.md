@@ -16,8 +16,8 @@ This theme is labeled `Julia (Monokai Vibrant)` in the theme selector.
 
 ![Monokai Vibrant](https://raw.githubusercontent.com/CameronBieganek/monokai-julia/master/images/julia-monokai-vibrant.png)
 
-## Acknowledgements
+## Acknowledgments
 
-- Monokai Classic is a modified version of the Monokai color theme built into VS Code.
+- Monokai Classic is a modified version of the [Monokai](https://github.com/microsoft/vscode/blob/master/extensions/theme-monokai/themes/monokai-color-theme.json) color theme built into VS Code.
 
-- The Monokai Vibrant theme in this extension is a modified version of Monokai Vibrant from Dylan Marsh.
+- The Monokai Vibrant theme in this extension is a modified version of [Monokai Vibrant](https://github.com/dylantmarsh/monokai-vibrant) by Dylan Marsh.

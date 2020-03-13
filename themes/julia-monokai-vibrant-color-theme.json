@@ -725,6 +725,12 @@
             "settings": {
                 "foreground": "#FF8F3F"
             }
+        },
+        {
+            "scope": "source.python support.variable",
+            "settings": {
+                "foreground": "#F8F8F0"
+            }
         }
     ]
 }

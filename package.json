@@ -9,6 +9,21 @@
     "categories": [
         "Themes"
     ],
+    "author": "Cameron Bieganek",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+        "url": "https://github.com/CameronBieganek/julia-color-themes/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CameronBieganek/julia-color-themes.git"
+    },
+    "keywords": [
+        "Julia",
+        "Color Theme",
+        "Theme",
+        "Monokai"
+    ],
     "contributes": {
         "themes": [
             {

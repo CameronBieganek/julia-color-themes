@@ -2,7 +2,7 @@
     "name": "julia-color-themes",
     "displayName": "Julia Color Themes",
     "description": "Color themes for the Julia language.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.41.0"
     },

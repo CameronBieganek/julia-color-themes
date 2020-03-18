@@ -12,6 +12,7 @@
     ],
     "author": "Cameron Bieganek",
     "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "images/julia-dots.png",
     "bugs": {
         "url": "https://github.com/CameronBieganek/julia-color-themes/issues"
     },
